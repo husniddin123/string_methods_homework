@@ -6,7 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    s ="helov"
+    s ="helov a nemi"
 
     answer = (s.title())
 
