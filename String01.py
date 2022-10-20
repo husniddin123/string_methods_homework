@@ -6,5 +6,10 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    s ="helov"
+
+    answer = (s.title())
+
+    return answer
+
+print(main("answer")) 
