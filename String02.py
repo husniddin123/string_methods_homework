@@ -6,5 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    answer = s.upper()
+    return answer
+
+print(main("salom aley"))
+
