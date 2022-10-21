@@ -1,15 +1,14 @@
 def main(s):
     """
-    A str of several words is given. All letters are lowercase. Make sure that the first letter of each word is capitalized.
+    A str of several words is given. All letters are lowercase. Make sure that the first letter of each word is capitalized.    A str of several words is given. All letters are lowercase. Make sure that the first letter of each word is capitalized.
     Args:
         s: str
     Returns:
         str: answer
     """
-    s ="helov a nemi"
-
-    answer = (s.title())
+    
+    answer = s.istitle()
 
     return answer
 
-print(main("answer")) 
+print(main("Helov A emi")) 
