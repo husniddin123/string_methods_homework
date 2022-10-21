@@ -7,7 +7,7 @@ def main(s):
         str: answer
     """
     
-    answer = s.istitle()
+    answer = s.title()
 
     return answer
 
