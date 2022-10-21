@@ -7,4 +7,8 @@ def main(s):
         str: answer
     """
 
-    return
+    return s.lower()
+
+print(main("Helov CHaki"))    
+
+
