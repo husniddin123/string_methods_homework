@@ -7,6 +7,6 @@ def main(s):
         str: answer
     """
     
-    return s.title()
+    return s.capitalize()
 
 print(main("main ses"))    
